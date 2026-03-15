@@ -1,0 +1,2704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main navigation pages -->
+  <url>
+    <loc>https://decentralize.design/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience/scaffold</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience/why-we-exist</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience/balloon</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience/hatch</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience/c2w-runway</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/experience/c2w2-runway</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/gallery</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/gallery/scaffold</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/gallery/neue-dojo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/gallery/elements-store</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/gallery/black-city</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/gallery/forge</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/item</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/item/space</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/item/avatar</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/item/design</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://decentralize.design/decentralize</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 3D GLB Model Assets (Digital Topographies, C2W Avatars, Design Objects) -->
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/6529memes-walk-opt-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 6529memes-walk-opt-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/ailu-900-opt-v2.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ailu-900-opt-v2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/artdecc0-900-opt-v3.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — artdecc0-900-opt-v3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/ash-futuro-opt-v5.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ash-futuro-opt-v5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/ashiah-rr-opt-v6.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ashiah-rr-opt-v6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/asian-900-opt-v7.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — asian-900-opt-v7</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/baconscene-900-opt-v59.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — baconscene-900-opt-v59</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/baiencaigai-tigai-900-opt-v60.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — baiencaigai-tigai-900-opt-v60</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/baienciaia-opt-v61.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — baienciaia-opt-v61</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/beeple-cena-opt-v62.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — beeple-cena-opt-v62</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/beeple-nudedoge-opt-v63.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — beeple-nudedoge-opt-v63</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/bellicapelli-900-opt-v64.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — bellicapelli-900-opt-v64</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/bulkgelin-900-opt-v65.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — bulkgelin-900-opt-v65</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/cozom-900-opt-v66.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — cozom-900-opt-v66</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/curator-900-opt-v67.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — curator-900-opt-v67</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/cybergesu-900-opt-v68.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — cybergesu-900-opt-v68</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/davicni-900-opt-v69.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — davicni-900-opt-v69</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/donmac-900-opt-v70.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — donmac-900-opt-v70</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/electrogod-900-opt-v71.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — electrogod-900-opt-v71</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/frued-human-900-opt-v72.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — frued-human-900-opt-v72</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/gordon-900-opt-v73.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — gordon-900-opt-v73</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/invertmemelegancesuit-900-opt-v74.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — invertmemelegancesuit-900-opt-v74</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/invertmemelegancesuit-hell-opt-v75.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — invertmemelegancesuit-hell-opt-v75</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/junya-900-opt-v78.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — junya-900-opt-v78</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/lydiaobejct-opt-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — lydiaobejct-opt-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/mare-900-opt-v79.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mare-900-opt-v79</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/matisse-900-opt-v80.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — matisse-900-opt-v80</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/memeagent-decons-invertsmiley-opt-v82.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — memeagent-decons-invertsmiley-opt-v82</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/memeagent-decons-wht-opt-v83.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — memeagent-decons-wht-opt-v83</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/mutantbacon-900-opt-v86.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mutantbacon-900-opt-v86</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/papaz-900-opt-v89.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — papaz-900-opt-v89</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/papaz-red-opt-v90.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — papaz-red-opt-v90</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/papaz-wht-opt-v91.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — papaz-wht-opt-v91</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/pile-900-opt-v92.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — pile-900-opt-v92</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/psyclown-900-opt-v93.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — psyclown-900-opt-v93</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/rabbit900-opt-v94.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — rabbit900-opt-v94</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/redpunnnk-900-opt-v95.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — redpunnnk-900-opt-v95</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/redwearsdfw-900-opt-v96.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — redwearsdfw-900-opt-v96</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/samspratt-900-opt-v97.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — samspratt-900-opt-v97</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/samu-walk-opt-v2.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — samu-walk-opt-v2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/saturnweekend-900-v2-opt-v99.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — saturnweekend-900-v2-opt-v99</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/seize-centerobject-opt-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — seize-centerobject-opt-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/sleekrobobitchspikey-900-opt-v100.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — sleekrobobitchspikey-900-opt-v100</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/squallo-900-opt-v101.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — squallo-900-opt-v101</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/steve-900-opt-v102.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — steve-900-opt-v102</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/teddyminator-opt-v103.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — teddyminator-opt-v103</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/tobbymillefeuille-web-opt-v3.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — tobbymillefeuille-web-opt-v3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/tommygunclown-opt-v104.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — tommygunclown-opt-v104</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/whitewearsdfw-900-opt-v105.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — whitewearsdfw-900-opt-v105</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/xcopy-900-opt-v106.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — xcopy-900-opt-v106</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/xeu2-900-opt-v107.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — xeu2-900-opt-v107</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/xoku-v1-opt-v108.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — xoku-v1-opt-v108</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/xoku-v2-opt-v109.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — xoku-v2-opt-v109</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2-glb/main/xokufupsuitanim-opt-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — xokufupsuitanim-opt-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2old/main/Joker-web-NOMAT-V3-v4.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Joker-web-NOMAT-V3-v4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2old/main/MemeleganceDress-WEB-NOAVATAR-v8.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — MemeleganceDress-WEB-NOAVATAR-v8</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2runwayglbmodels1000/main/davicni-1000-opt-v13.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — davicni-1000-opt-v13</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/c2w2runwayglbmodels1000/main/samspratt-1000-comms-opt-v34.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — samspratt-1000-comms-opt-v34</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/-blck-v62.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — -blck-v62</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/-red-v63.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — -red-v63</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/-sofa-v64.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — -sofa-v64</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/-white-v65.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — -white-v65</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/0FF-BLCK-v4.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 0FF-BLCK-v4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/0FF-Red-v2.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 0FF-Red-v2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/0FF-WHT-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 0FF-WHT-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/0FF-og-v3.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 0FF-og-v3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2002-BLVKK-v91.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2002-BLVKK-v91</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2002-OG-v92.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2002-OG-v92</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2002-TEA-v93.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2002-TEA-v93</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2002-WHT-v94.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2002-WHT-v94</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2070s-dj-table-BLCK-v70.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2070s-dj-table-BLCK-v70</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2070s-dj-table-HANDBAKE-v71.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2070s-dj-table-HANDBAKE-v71</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2070s-dj-table-RED2-v72.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2070s-dj-table-RED2-v72</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/2070s-dj-table-WHT-v73.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2070s-dj-table-WHT-v73</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BROWNSHARTABLE-DARK-v79.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BROWNSHARTABLE-DARK-v79</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BROWNSHARTABLE-OG-v82.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BROWNSHARTABLE-OG-v82</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BROWNSHARTABLE-RED-v80.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BROWNSHARTABLE-RED-v80</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BROWNSHARTABLE-ROCK-v81.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BROWNSHARTABLE-ROCK-v81</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BoardROOMTABLE-BLCK-v74.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BoardROOMTABLE-BLCK-v74</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BoardROOMTABLE-GLASS-v78.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BoardROOMTABLE-GLASS-v78</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BoardROOMTABLE-OG-v75.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BoardROOMTABLE-OG-v75</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BoardROOMTABLE-RED-v76.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BoardROOMTABLE-RED-v76</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/BoardROOMTABLE-WHT-v77.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — BoardROOMTABLE-WHT-v77</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/CROOKEDASWEFUNASYU-BLCK-v99.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — CROOKEDASWEFUNASYU-BLCK-v99</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/CROOKEDASWEFUNASYU-OG-v100.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — CROOKEDASWEFUNASYU-OG-v100</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/CROOKEDASWEFUNASYU-RED-v101.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — CROOKEDASWEFUNASYU-RED-v101</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/CROOKEDASWEFUNASYU-WHT-v102.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — CROOKEDASWEFUNASYU-WHT-v102</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJ2_2_BLACK-v46.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJ2_2_BLACK-v46</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJ2_2_og-GRY-v47.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJ2_2_og-GRY-v47</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJ2_2_red-V2-v48.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJ2_2_red-V2-v48</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJ2_2_wakara-wht2-v49.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJ2_2_wakara-wht2-v49</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJSET-BLCK-v37.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJSET-BLCK-v37</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJSET-OG-v38.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJSET-OG-v38</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJSET-RED-v39.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJSET-RED-v39</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJSET-RETRO-v40.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJSET-RETRO-v40</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DJSET-WHITE-v41.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DJSET-WHITE-v41</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DSE-antst-v5.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DSE-antst-v5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DSE-black-v6.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DSE-black-v6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DSE-red-v7.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DSE-red-v7</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/DSE-white-v8.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — DSE-white-v8</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/E66-chair-v31.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — E66-chair-v31</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/GlassDougnutCommunicationUnit-blck-v58.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — GlassDougnutCommunicationUnit-blck-v58</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/GlassDougnutCommunicationUnit-gry-v59.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — GlassDougnutCommunicationUnit-gry-v59</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/GlassDougnutCommunicationUnit-red-v60.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — GlassDougnutCommunicationUnit-red-v60</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/GlassDougnutCommunicationUnit-wht-v61.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — GlassDougnutCommunicationUnit-wht-v61</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/LEGEND-BLCK-v104.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — LEGEND-BLCK-v104</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/LEGEND-CHRM-v105.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — LEGEND-CHRM-v105</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/LEGEND-RED-v106.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — LEGEND-RED-v106</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/LEGEND-v103.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — LEGEND-v103</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ME-TREE-X-blck-v107.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ME-TREE-X-blck-v107</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ME-TREE-X-gry-v108.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ME-TREE-X-gry-v108</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ME-TREE-X-og-v109.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ME-TREE-X-og-v109</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ME-TREE-X-red2-v110.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ME-TREE-X-red2-v110</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/NEOKLEIN-blck-v119.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — NEOKLEIN-blck-v119</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/NEOKLEIN-gry-v120.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — NEOKLEIN-gry-v120</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/NEOKLEIN-og-v121.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — NEOKLEIN-og-v121</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/NEOKLEIN-red2-v122.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — NEOKLEIN-red2-v122</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Praified-BLVK-v127.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Praified-BLVK-v127</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Praified-OG-v128.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Praified-OG-v128</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Praified-RED-v129.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Praified-RED-v129</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Praified-WHT-v130.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Praified-WHT-v130</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/SCREAMER-BLCK-v52.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — SCREAMER-BLCK-v52</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/SCREAMER-OG-GRY-v53.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — SCREAMER-OG-GRY-v53</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/SCREAMER-RED-v50.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — SCREAMER-RED-v50</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/SCREAMER-WHT-v51.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — SCREAMER-WHT-v51</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Sanctified-BLCK-v131.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Sanctified-BLCK-v131</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Sanctified-OG-v132.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Sanctified-OG-v132</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Sanctified-RED-v133.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Sanctified-RED-v133</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/Sanctified-WHT-v134.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — Sanctified-WHT-v134</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XXX-MarsDEADLeaf-BLCK-v18.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XXX-MarsDEADLeaf-BLCK-v18</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XXX-MarsDEADLeaf-BLUPINKPURP-v19.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XXX-MarsDEADLeaf-BLUPINKPURP-v19</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XXX-MarsDEADLeaf-NEON2-v20.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XXX-MarsDEADLeaf-NEON2-v20</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XXX-MarsDEADLeaf-WHT-v21.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XXX-MarsDEADLeaf-WHT-v21</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XYZ008-blck-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XYZ008-blck-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XYZ008-glasser-v2.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XYZ008-glasser-v2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XYZ008-golds-v3.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XYZ008-golds-v3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XYZ008-red-v4.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XYZ008-red-v4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/XYZ008-yellow-v5.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — XYZ008-yellow-v5</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ZBR-BLCKK-v6.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ZBR-BLCKK-v6</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ZBR-OG2-v7.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ZBR-OG2-v7</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ZBR-RED-v8.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ZBR-RED-v8</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/ZBR-WHT-v9.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — ZBR-WHT-v9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-chair-OG-v35.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-chair-OG-v35</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-chair-dvnc-v33.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-chair-dvnc-v33</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-chair-mono-v34.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-chair-mono-v34</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-chair-red-v36.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-chair-red-v36</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-napkin-mono-v95.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-napkin-mono-v95</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-napkin-mono2-blckmid-v96.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-napkin-mono2-blckmid-v96</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-napkin-og-v97.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-napkin-og-v97</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/angry-napkin-red-v98.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — angry-napkin-red-v98</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/aretaix-OG-v14.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — aretaix-OG-v14</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/aretaix-WHT-v16.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — aretaix-WHT-v16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/aretaix-black-v13.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — aretaix-black-v13</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/aretaix-red-v15.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — aretaix-red-v15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/armageddon-antrst-v18.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — armageddon-antrst-v18</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/armageddon-black-v19.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — armageddon-black-v19</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/armageddon-red-v20.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — armageddon-red-v20</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/armageddonseat-v17.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — armageddonseat-v17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/bilbao-lego-chair-black-v22.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — bilbao-lego-chair-black-v22</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/bilbao-lego-chair-dark-v23.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — bilbao-lego-chair-dark-v23</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/bilbao-lego-chair-v21.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — bilbao-lego-chair-v21</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/bilbao-lego-chair-white-v24.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — bilbao-lego-chair-white-v24</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/carwrecksofa-black-v54.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — carwrecksofa-black-v54</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/carwrecksofa-gray-v55.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — carwrecksofa-gray-v55</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/carwrecksofa-red-v56.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — carwrecksofa-red-v56</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/carwrecksofa-white-v57.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — carwrecksofa-white-v57</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/chromiebridgeauralsection-OG-v140.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — chromiebridgeauralsection-OG-v140</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/chromiebridgeauralsection-RED-v141.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — chromiebridgeauralsection-RED-v141</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/chromiebridgeauralsection-alien3-v138.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — chromiebridgeauralsection-alien3-v138</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/chromiebridgeauralsection-gray2-v139.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — chromiebridgeauralsection-gray2-v139</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/dj2-BLACK-OG-v44.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — dj2-BLACK-OG-v44</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/dj2-GRY-v42.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — dj2-GRY-v42</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/dj2-RED-v43.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — dj2-RED-v43</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/dj2-WHT-v45.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — dj2-WHT-v45</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/e66-antrst-v29.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — e66-antrst-v29</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/e66-blck-v30.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — e66-blck-v30</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/e66-red-v32.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — e66-red-v32</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/fetuchair-OG.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — fetuchair-OG</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/fetuchair-blck.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — fetuchair-blck</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/fetuchair-red.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — fetuchair-red</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/fetuchair-white.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — fetuchair-white</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/higgs-boson-chrome-r-v25.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — higgs-boson-chrome-r-v25</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/higgs-boson-concrete-r-v26.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — higgs-boson-concrete-r-v26</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/higgs-boson-night-r-v27.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — higgs-boson-night-r-v27</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/higgs-boson-red-r-v28.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — higgs-boson-red-r-v28</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/jack-the-lad-xx-OG-v9.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — jack-the-lad-xx-OG-v9</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/jack-the-lad-xx-blck-v12.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — jack-the-lad-xx-blck-v12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/jack-the-lad-xx-red-v10.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — jack-the-lad-xx-red-v10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/jack-the-lad-xx-wht-v11.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — jack-the-lad-xx-wht-v11</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/merged-GRY-og-v84.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — merged-GRY-og-v84</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/merged-WHT-v86.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — merged-WHT-v86</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/merged-blck-v83.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — merged-blck-v83</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/merged-red-v85.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — merged-red-v85</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mermaid-chair-black-v4.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mermaid-chair-black-v4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mermaid-chair-chrome-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mermaid-chair-chrome-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mermaid-chair-og-v2.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mermaid-chair-og-v2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mermaid-chair-red-v3.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mermaid-chair-red-v3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/midasspade-black-v111.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — midasspade-black-v111</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/midasspade-gold-v112.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — midasspade-gold-v112</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/midasspade-gray-v113.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — midasspade-gray-v113</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/midasspade-red-v114.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — midasspade-red-v114</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/moleculardataplant-Blck-semiopaque-v115.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — moleculardataplant-Blck-semiopaque-v115</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/moleculardataplant-OG-v116.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — moleculardataplant-OG-v116</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/moleculardataplant-Red-v117.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — moleculardataplant-Red-v117</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/moleculardataplant-WHITE-v118.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — moleculardataplant-WHITE-v118</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mystical-arcases-blck-v147.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mystical-arcases-blck-v147</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mystical-arcases-mix2-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mystical-arcases-mix2-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mystical-arcases-red-v146.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mystical-arcases-red-v146</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/mystical-arcases-wht-v148.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — mystical-arcases-wht-v148</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/osirisrake-candle-v123.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — osirisrake-candle-v123</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/osirisrake-dark-v124.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — osirisrake-dark-v124</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/osirisrake-light-v125.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — osirisrake-light-v125</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/osirisrake-og-v126.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — osirisrake-og-v126</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/sjsoc-gry-v66.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — sjsoc-gry-v66</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/sjsoc-monoc-v67.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — sjsoc-monoc-v67</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/sjsoc-neon-v68.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — sjsoc-neon-v68</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/sjsoc-wht-v69.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — sjsoc-wht-v69</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/skewer-blck-v17.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — skewer-blck-v17</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/skewer-og2-v16.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — skewer-og2-v16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/skewer-red-v15.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — skewer-red-v15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/skewer-wht2-v14.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — skewer-wht2-v14</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/soh-1-v135.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — soh-1-v135</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/soh-2-v136.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — soh-2-v136</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/soh-3-v137.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — soh-3-v137</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/spooky-blackigator-carpet-v87.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — spooky-blackigator-carpet-v87</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/spooky-davinci-carpet-v88.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — spooky-davinci-carpet-v88</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/spooky-throne-carpet-3-v89.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — spooky-throne-carpet-3-v89</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/spooky-verdealip-carpet-v90.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — spooky-verdealip-carpet-v90</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/w6o1m6-500K-v142.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — w6o1m6-500K-v142</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/w6o1m6-500K_BLCK-v143.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — w6o1m6-500K_BLCK-v143</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/w6o1m6-500K_DARK-v144.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — w6o1m6-500K_DARK-v144</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/w6o1m6-500K_RED-v145.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — w6o1m6-500K_RED-v145</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/wellngton-blck-v10.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — wellngton-blck-v10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/wellngton-og-v11.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — wellngton-og-v11</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/wellngton-red-v12.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — wellngton-red-v12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/dfwdesign/main/wellngton-wht-v13.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — wellngton-wht-v13</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/0-POTBELLYQ_FU-Digital_Topographies_00.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 0-POTBELLYQ_FU-Digital_Topographies_00</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/1-XHBTION_SPC-Digital_Topographies_01.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 1-XHBTION_SPC-Digital_Topographies_01</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/10-NP17658-(Digital_Topographies_10.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 10-NP17658-(Digital_Topographies_10</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/11-HSHQ-Digital_Topographies_11.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 11-HSHQ-Digital_Topographies_11</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/12-TBPF-Digital_Topographies_12.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 12-TBPF-Digital_Topographies_12</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/13-K-DOCIINE_HQ-Digital_Topographies_13.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 13-K-DOCIINE_HQ-Digital_Topographies_13</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/14-PODDIO_VERTICALE_Digital_Topographies_14-v1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 14-PODDIO_VERTICALE_Digital_Topographies_14-v1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/15-PODDIO_DARK_TWISTED_VERTICALE-Digital_Topographies_15.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 15-PODDIO_DARK_TWISTED_VERTICALE-Digital_Topographies_15</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/16-SPACE_TIME_ROOMS-(Digital_Topographies_16.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 16-SPACE_TIME_ROOMS-(Digital_Topographies_16</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/17-MATISSE_TIME_CHAIPEL_Digital_Topographies_17_.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 17-MATISSE_TIME_CHAIPEL_Digital_Topographies_17_</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/18-MATSOUKA_HILLS_MANSION_Digital_Topographies_18_.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 18-MATSOUKA_HILLS_MANSION_Digital_Topographies_18_</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/19-MUOG2_Digital_Topographies_19.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 19-MUOG2_Digital_Topographies_19</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/2-VEGANCELL+PARK-Digital_Topographies_02.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 2-VEGANCELL+PARK-Digital_Topographies_02</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/20-SPYDER_MOSK_Digital_Topographies_20_.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 20-SPYDER_MOSK_Digital_Topographies_20_</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/21-SPYDER_MOSK_PICCOLO_Digital_Topographies_21_.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 21-SPYDER_MOSK_PICCOLO_Digital_Topographies_21_</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/22-THE_FLY_CLUB_Digital_Topographies_22_.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 22-THE_FLY_CLUB_Digital_Topographies_22_</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/23-BEYOND%20THE%20INFINITY%20-cutt(Digital_Topographies_23).glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 23-BEYOND%20THE%20INFINITY%20-cutt(Digital_Topographies_23)</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/24.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 24</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/25-1.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 25-1</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/25-2.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 25-2</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/25-3.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 25-3</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/25-4.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 25-4</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/26.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 26</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/27.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 27</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/28.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 28</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/29.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 29</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/3-BUREAU+THEATRE-Digital_Topographies_03.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 3-BUREAU+THEATRE-Digital_Topographies_03</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/30.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 30</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/31.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 31</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/32.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 32</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/33.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 33</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/34.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 34</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/35.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 35</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/36.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 36</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/37.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 37</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/38.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 38</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/39.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 39</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/4-DIGITALEXPOCENTER-Digital_Topographies_04.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 4-DIGITALEXPOCENTER-Digital_Topographies_04</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/40.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 40</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/42.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 42</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/43.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 43</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/44.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 44</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/45.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 45</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/46.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 46</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/47.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 47</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/48.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 48</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/49.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 49</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/5-LA_BIBLIOTHÈQUE_DE_L-ÉCOLE_POLYTECHNIQUE_FÉDÉRALE_DE_METAVERSE-Digital_Topographies_05.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 5-LA_BIBLIOTHÈQUE_DE_L-ÉCOLE_POLYTECHNIQUE_FÉDÉRALE_DE_METAVERSE-Digital_Topographies_05</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/50.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 50</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/51.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 51</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/6-DECONSTRUCTIVIST_EAGLE_NEST-Digital_Topographies_06.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 6-DECONSTRUCTIVIST_EAGLE_NEST-Digital_Topographies_06</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/7-ASTRAL_EGG_PLANT-Digital_Topographies_07.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 7-ASTRAL_EGG_PLANT-Digital_Topographies_07</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://raw.githubusercontent.com/decentralize-dfw/digitaltopographies/main/9-UMMUSE-Digital_Topographies_09.glb</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png</image:loc>
+      <image:title>Decentralize Design 3D Model — 9-UMMUSE-Digital_Topographies_09</image:title>
+    </image:image>
+  </url>
+</urlset>

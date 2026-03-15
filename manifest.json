@@ -1,0 +1,55 @@
+{
+  "name": "Decentralize Design — Metaverse Architecture Studio",
+  "short_name": "decentralize",
+  "description": "Milan-based metaverse architecture studio. WebXR virtual spaces, blockchain-authenticated digital assets, VRM avatars & immersive 3D experiences. RedDAO Digital Fashion 1st Prize winner.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["design", "art", "entertainment", "productivity"],
+  "icons": [
+    {
+      "src": "https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://static.wixstatic.com/media/54a996_754c4a2fc6e24f5cb62081ccbef940fe~mv2.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Decentralize Design Desktop Portfolio Browser"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Experience — WebXR Theaters",
+      "short_name": "Experience",
+      "description": "Explore WebXR virtual theaters and fashion runways",
+      "url": "/experience",
+      "icons": [{"src": "https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png", "sizes": "96x96"}]
+    },
+    {
+      "name": "Gallery — Virtual Architecture",
+      "short_name": "Gallery",
+      "description": "Explore 3D architectural spaces and digital art galleries",
+      "url": "/gallery",
+      "icons": [{"src": "https://static.wixstatic.com/media/54a996_8f7253663c574ecdb4e2468004959096~mv2.png", "sizes": "96x96"}]
+    }
+  ]
+}
