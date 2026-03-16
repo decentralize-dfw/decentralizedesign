@@ -305,85 +305,112 @@
 
 /* ===== 2.html: iPad landscape layout ===== */
 @media (min-width:769px){
-/* Hide old desktop chrome */
 .finder-window,#desktop-icons{display:none!important}
 
-/* Hide circular-nav visually but fixed children (bg-selector, layout-toggle) can override */
-#circular-navigation{visibility:hidden;pointer-events:none;z-index:0!important}
+/* Circular-nav: hide background pseudo-element completely.
+   Background is now served by #ipad-bg-layer appended to <body> (outside
+   mobile-interface stacking context) so z-index is root-level. */
+#circular-navigation::before{content:none!important;display:none!important;}
+#circular-navigation{pointer-events:none!important;background:transparent!important;}
+#circular-sidebar,#circular-container,#circular-breadcrumb{display:none!important}
+#circular-back-button{opacity:0!important;pointer-events:none!important}
 
-/* Layout toggle → top-left */
+/* Layout toggle top-left, bg selector top-right */
 #layout-toggle-container{
-  visibility:visible!important;pointer-events:auto!important;
   position:fixed!important;top:10px!important;left:16px!important;
-  bottom:auto!important;z-index:20100!important;display:flex!important;
+  bottom:auto!important;z-index:20100!important;display:flex!important;pointer-events:auto!important;
 }
-/* BG selector → top-right */
 #background-selector{
-  visibility:visible!important;pointer-events:auto!important;
   position:fixed!important;top:10px!important;right:16px!important;
   bottom:auto!important;left:auto!important;transform:none!important;
-  z-index:20100!important;display:flex!important;
+  z-index:20100!important;display:flex!important;pointer-events:auto!important;
 }
-#circular-breadcrumb{display:none!important}
-#circular-back-button{display:none!important}
 
-/* Show mobile-interface as iPad — starts below top controls */
+/* Mobile interface = iPad: transparent so bg shows through */
 #mobile-interface{
   display:flex!important;position:fixed!important;
   top:44px!important;left:0!important;
   width:100vw!important;height:calc(100vh - 44px)!important;
-  z-index:9999!important;padding:0!important;box-sizing:border-box!important;
+  z-index:9999!important;padding:0!important;
+  box-sizing:border-box!important;overflow:hidden!important;
+  background:transparent!important;flex-direction:column!important;
 }
-/* Hide phone-style status bar */
-#mobile-status-bar{display:none!important}
-#mobile-main-area{padding:8px 28px 0!important}
 
-/* iPad grid: 6 cols x 4 rows = 24 items/page (matches JS MOBILE_ITEMS_PER_PAGE=24) */
+/* Override original desktop hide rules */
+#mobile-status-bar{display:none!important}
+#mobile-main-area{
+  display:block!important;position:relative!important;
+  flex:1!important;min-height:0!important;
+  padding:8px 28px 0!important;overflow:hidden!important;
+}
+
+/* pages container fills main area via absolute positioning — avoids height:100% chain issues */
+#mobile-pages-container{
+  position:absolute!important;
+  top:0!important;left:0!important;right:0!important;bottom:0!important;
+  overflow:hidden!important;
+}
+#mobile-pages-wrapper{
+  display:flex!important;
+  position:absolute!important;
+  top:0!important;left:0!important;right:0!important;bottom:0!important;
+  transition:transform 0.3s ease-out!important;
+}
 .mobile-page{
+  flex-shrink:0!important;width:100%!important;height:100%!important;
+  display:grid!important;
   grid-template-columns:repeat(6,1fr)!important;
   grid-template-rows:repeat(4,1fr)!important;
-  gap:2% 2.5%!important;padding:8px 0!important;
+  gap:1.5% 2%!important;padding:8px!important;
+  box-sizing:border-box!important;align-items:center!important;justify-items:center!important;
 }
-
-/* Larger icons for iPad */
-.mobile-app-icon-image{
-  --icon-size:min(11vw,calc((100dvh - 180px) / 5))!important;
-  width:calc(var(--icon-size)*0.85)!important;
-  height:calc(var(--icon-size)*0.85)!important;
-  border-radius:22%!important;
-}
-.mobile-app-icon-name{
-  font-size:clamp(9px,1.1vw,13px)!important;
-  width:var(--icon-size,11vw)!important;
-  margin-top:5px!important;
+#mobile-page-dots{
+  position:absolute!important;bottom:6px!important;left:50%!important;
+  transform:translateX(-50%)!important;
+  display:flex!important;align-items:center!important;gap:6px!important;
+  height:16px!important;min-height:16px!important;padding:0!important;
 }
 
 /* iPad dock */
 #mobile-dock{
-  height:88px!important;min-height:88px!important;max-height:88px!important;
-  padding:8px 0 14px!important;display:flex!important;
+  display:flex!important;flex-shrink:0!important;
   align-items:center!important;justify-content:center!important;
-  flex-shrink:0!important;
+  height:100px!important;min-height:100px!important;max-height:100px!important;
+  padding:8px 0 16px!important;
 }
 #mobile-dock-container{
-  max-width:460px!important;width:auto!important;
-  border-radius:32px!important;padding:10px 28px!important;gap:16px!important;
+  max-width:560px!important;width:auto!important;
+  border-radius:36px!important;padding:12px 32px!important;gap:20px!important;
   background:rgba(255,255,255,0.22)!important;
   backdrop-filter:blur(32px)!important;-webkit-backdrop-filter:blur(32px)!important;
   box-shadow:0 8px 32px rgba(0,0,0,0.25)!important;
 }
 .mobile-dock-icon{flex:none!important;max-width:none!important}
 .mobile-dock-icon-image{
-  --dock-icon-size:min(8vw,62px)!important;
-  width:calc(var(--dock-icon-size)*0.88)!important;
-  height:calc(var(--dock-icon-size)*0.88)!important;
+  --dock-icon-size:min(6vw,68px)!important;
+  width:var(--dock-icon-size)!important;
+  height:var(--dock-icon-size)!important;
   border-radius:22%!important;
 }
 .mobile-dock-icon-name{display:none!important}
 
-/* Viewers stay on top */
-#mobile-app-viewer{z-index:20000!important}
-#mobile-folder-overlay{z-index:20001!important}
+/* Icon sizing — smaller for iPad aesthetics */
+.mobile-app-icon-image{
+  --icon-size:min(8vw,82px)!important;
+  width:calc(var(--icon-size)*0.88)!important;
+  height:calc(var(--icon-size)*0.88)!important;
+  border-radius:22%!important;
+}
+.mobile-app-icon-name{
+  font-size:clamp(8px,1vw,12px)!important;
+  width:var(--icon-size,8vw)!important;
+  margin-top:4px!important;white-space:nowrap!important;
+  overflow:hidden!important;text-overflow:ellipsis!important;
+}
+
+/* folder below viewer: clicking item in folder opens viewer on top */
+#mobile-folder-overlay{z-index:10000!important}
+#mobile-app-viewer{z-index:19000!important}
 }
 @media (max-width:768px){
 #ipad-bottom-bar,#ipad-info-panel{display:none!important}
@@ -8545,5 +8572,40 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+</script>
+<script>
+/* iPad background layer — appended to <body> so it lives in the ROOT
+   stacking context (z-index:1), completely independent of #mobile-interface.
+   #mobile-interface has z-index:9999 in root → always on top of this layer. */
+(function(){
+  if(window.innerWidth<=768)return;
+  var bgs=[
+    'https://static.wixstatic.com/media/54a996_f30b1a66dd614f218faf61af3545c208~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_3d4cccedaf914f7cba9e480ed49a7650~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_e33e3701a1b04ddaa00b15280249efd1~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_8b3a92002e9d4dbb99bf9247e7885944~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_28419c1654b14235bb2c695ab3a437e2~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_e021d95f1a27417db8de8fe0e75eb12c~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_ba80e31fd25540a5b648f40640b7eaae~mv2.jpg'
+  ];
+  var layer=document.createElement('div');
+  layer.id='ipad-bg-layer';
+  layer.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:1;background-size:cover;background-position:center;background-repeat:no-repeat;pointer-events:none;transition:opacity 0.9s ease;';
+  layer.style.backgroundImage='url("'+bgs[0]+'")';
+  document.body.appendChild(layer);
+  /* Intercept bg-selector button clicks (capture phase = before existing handlers) */
+  document.querySelectorAll('.bg-selector-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var idx=parseInt(btn.getAttribute('data-bg'),10)-1;
+      if(bgs[idx]){
+        layer.style.opacity='0';
+        setTimeout(function(){
+          layer.style.backgroundImage='url("'+bgs[idx]+'")';
+          layer.style.opacity='1';
+        },900);
+      }
+    },true);
+  });
+})();
 </script>
 </body></html>
