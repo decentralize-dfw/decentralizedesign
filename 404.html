@@ -38,8 +38,16 @@ a:hover{border-color:#fff;background:rgba(255,255,255,0.1)}
   </nav>
 </div>
 <script>
-// Redirect to home after 10 seconds
-setTimeout(function(){ window.location.href = '/'; }, 10000);
+// GitHub Pages SPA deep link support
+// Save the intended path and immediately redirect to index.html
+(function(){
+  var path = window.location.pathname;
+  var search = window.location.search;
+  if (path && path !== '/') {
+    sessionStorage.setItem('spaRedirect', path + (search || ''));
+  }
+  window.location.replace('/');
+})();
 </script>
 </body>
 </html>
