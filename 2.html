@@ -307,9 +307,11 @@
 @media (min-width:769px){
 .finder-window,#desktop-icons{display:none!important}
 
-/* Keep circular-nav visible (background shows) but hide content */
-/* z-index:0 so it renders BELOW mobile content (main-area z-index:2) */
-#circular-navigation{pointer-events:none;z-index:0!important}
+/* Circular-nav: hide background pseudo-element completely.
+   Background is now served by #ipad-bg-layer appended to <body> (outside
+   mobile-interface stacking context) so z-index is root-level. */
+#circular-navigation::before{content:none!important;display:none!important;}
+#circular-navigation{pointer-events:none!important;background:transparent!important;}
 #circular-sidebar,#circular-container,#circular-breadcrumb{display:none!important}
 #circular-back-button{opacity:0!important;pointer-events:none!important}
 
@@ -340,7 +342,6 @@
   display:block!important;position:relative!important;
   flex:1!important;min-height:0!important;
   padding:8px 28px 0!important;overflow:hidden!important;
-  z-index:2!important; /* above circular-navigation (z-index:0) */
 }
 
 /* pages container fills main area via absolute positioning — avoids height:100% chain issues */
@@ -376,7 +377,6 @@
   align-items:center!important;justify-content:center!important;
   height:100px!important;min-height:100px!important;max-height:100px!important;
   padding:8px 0 16px!important;
-  position:relative!important;z-index:2!important; /* above circular-navigation */
 }
 #mobile-dock-container{
   max-width:560px!important;width:auto!important;
@@ -408,9 +408,9 @@
   overflow:hidden!important;text-overflow:ellipsis!important;
 }
 
-/* Viewers on top: folder first, app-viewer above folder */
-#mobile-folder-overlay{z-index:20000!important}
-#mobile-app-viewer{z-index:20001!important}
+/* folder below viewer: clicking item in folder opens viewer on top */
+#mobile-folder-overlay{z-index:10000!important}
+#mobile-app-viewer{z-index:19000!important}
 }
 @media (max-width:768px){
 #ipad-bottom-bar,#ipad-info-panel{display:none!important}
@@ -8572,5 +8572,40 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+</script>
+<script>
+/* iPad background layer — appended to <body> so it lives in the ROOT
+   stacking context (z-index:1), completely independent of #mobile-interface.
+   #mobile-interface has z-index:9999 in root → always on top of this layer. */
+(function(){
+  if(window.innerWidth<=768)return;
+  var bgs=[
+    'https://static.wixstatic.com/media/54a996_f30b1a66dd614f218faf61af3545c208~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_3d4cccedaf914f7cba9e480ed49a7650~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_e33e3701a1b04ddaa00b15280249efd1~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_8b3a92002e9d4dbb99bf9247e7885944~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_28419c1654b14235bb2c695ab3a437e2~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_e021d95f1a27417db8de8fe0e75eb12c~mv2.jpg',
+    'https://static.wixstatic.com/media/54a996_ba80e31fd25540a5b648f40640b7eaae~mv2.jpg'
+  ];
+  var layer=document.createElement('div');
+  layer.id='ipad-bg-layer';
+  layer.style.cssText='position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:1;background-size:cover;background-position:center;background-repeat:no-repeat;pointer-events:none;transition:opacity 0.9s ease;';
+  layer.style.backgroundImage='url("'+bgs[0]+'")';
+  document.body.appendChild(layer);
+  /* Intercept bg-selector button clicks (capture phase = before existing handlers) */
+  document.querySelectorAll('.bg-selector-btn').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var idx=parseInt(btn.getAttribute('data-bg'),10)-1;
+      if(bgs[idx]){
+        layer.style.opacity='0';
+        setTimeout(function(){
+          layer.style.backgroundImage='url("'+bgs[idx]+'")';
+          layer.style.opacity='1';
+        },900);
+      }
+    },true);
+  });
+})();
 </script>
 </body></html>
