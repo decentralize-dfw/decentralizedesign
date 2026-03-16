@@ -1,0 +1,30 @@
+# Decentralize Design — robots.txt
+# https://decentralize.design
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow important assets
+Allow: /manifest.json
+Allow: /sitemap.xml
+Allow: /sw.js
+
+# Crawl-delay: none (let Google decide)
+
+# Sitemaps
+Sitemap: https://decentralize.design/sitemap.xml
+
+# GPTBot (OpenAI) - allow for training data
+User-agent: GPTBot
+Allow: /
+
+# Google-Extended (Bard/Gemini)
+User-agent: Google-Extended
+Allow: /
+
+# CCBot (Common Crawl)
+User-agent: CCBot
+Allow: /
