@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLB/VRM Viewer - Ultra Quality (Meshopt & Draco & Anim)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #000;
+        }
+        #viewer-container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+            outline: none;
+        }
+        #loading {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+            text-align: center;
+        }
+        .loading-text {
+            font-size: 12px;
+            color: #fff;
+            margin-top: 15px;
+            font-weight: 500;
+        }
+        .circular-progress {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            margin: 0 auto;
+        }
+        .circular-progress svg {
+            transform: rotate(-90deg);
+            width: 100%;
+            height: 100%;
+        }
+        .circular-progress circle {
+            fill: none;
+            stroke-width: 3;
+        }
+        .circle-bg {
+            stroke: rgba(255, 255, 255, 0.2);
+        }
+        .circle-progress {
+            stroke: #3b82f6;
+            stroke-linecap: round;
+            transition: stroke-dashoffset 0.3s ease;
+        }
+        .progress-percent {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 18px;
+            font-weight: 600;
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body>
+    <div id="viewer-container">
+        <div id="loading">
+            <div class="circular-progress">
+                <svg viewBox="0 0 80 80">
+                    <circle class="circle-bg" cx="40" cy="40" r="36"></circle>
+                    <circle class="circle-progress" cx="40" cy="40" r="36"
+                            stroke-dasharray="226.19"
+                            stroke-dashoffset="226.19"></circle>
+                </svg>
+                <div class="progress-percent">0%</div>
+            </div>
+            <div class="loading-text">Loading</div>
+        </div>
+    </div>
+
+    <!-- Three.js r160 - Modern version with Transmission/Volume/VRM/Meshopt support -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/",
+            "@pixiv/three-vrm": "https://cdn.jsdelivr.net/npm/@pixiv/three-vrm@2.1.0/lib/three-vrm.module.js"
+        }
+    }
+    </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+        import { DRACOLoader } from 'three/addons/loaders/DRACOLoader.js';
+        import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js';
+        import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
+        import { VRMLoaderPlugin } from '@pixiv/three-vrm';
+
+        class GLBViewer {
+            constructor() {
+                this.container = document.getElementById('viewer-container');
+                this.loading = document.getElementById('loading');
+                this.devicePixelRatio = Math.min(window.devicePixelRatio, 2);
+                
+                // Animasyonlar için clock başlat
+                this.clock = new THREE.Clock();
+                this.mixer = null;
+
+                this.init();
+                this.setupLights();
+                this.animate();
+
+                window.addEventListener('resize', () => this.onWindowResize());
+                document.addEventListener('fullscreenchange', () => this.onFullscreenChange());
+            }
+
+            init() {
+                // Scene with BLACK background
+                this.scene = new THREE.Scene();
+                this.scene.background = new THREE.Color(0x000000);
+
+                // Camera
+                this.camera = new THREE.PerspectiveCamera(
+                    45,
+                    window.innerWidth / window.innerHeight,
+                    0.1,
+                    2000
+                );
+                this.camera.position.set(0, 3, 8);
+
+                // Renderer with ULTRA quality settings
+                this.renderer = new THREE.WebGLRenderer({
+                    antialias: true,
+                    powerPreference: 'high-performance',
+                    preserveDrawingBuffer: true,
+                    alpha: false
+                });
+                this.renderer.setPixelRatio(this.devicePixelRatio);
+                this.renderer.setSize(window.innerWidth, window.innerHeight);
+
+                // Shadow settings
+                this.renderer.shadowMap.enabled = true;
+                this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+                // Color management
+                this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
+                this.renderer.toneMappingExposure = 1.0;
+                this.renderer.outputColorSpace = THREE.SRGBColorSpace;
+
+                this.container.appendChild(this.renderer.domElement);
+
+                // Controls
+                this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+                this.controls.enableDamping = true;
+                this.controls.dampingFactor = 0.05;
+                this.controls.autoRotate = false;
+                this.controls.minDistance = 0.1;
+                this.controls.maxDistance = 200;
+                this.controls.enablePan = true;
+                this.controls.enableZoom = true;
+            }
+
+            setupLights() {
+                // Ambient Light
+                this.ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+                this.scene.add(this.ambientLight);
+
+                // Main Directional Light
+                this.directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
+                this.directionalLight.position.set(10, 50, 20);
+                this.directionalLight.castShadow = true;
+
+                // 4K shadow map
+                this.directionalLight.shadow.mapSize.width = 4096;
+                this.directionalLight.shadow.mapSize.height = 4096;
+                this.directionalLight.shadow.camera.near = 0.5;
+                this.directionalLight.shadow.camera.far = 500;
+                this.directionalLight.shadow.camera.left = -50;
+                this.directionalLight.shadow.camera.right = 50;
+                this.directionalLight.shadow.camera.top = 50;
+                this.directionalLight.shadow.camera.bottom = -50;
+                this.directionalLight.shadow.bias = -0.0005;
+
+                this.scene.add(this.directionalLight);
+
+                // Fill lights
+                const fillLight1 = new THREE.DirectionalLight(0xffffff, 0.4);
+                fillLight1.position.set(-10, 20, -20);
+                this.scene.add(fillLight1);
+
+                const fillLight2 = new THREE.DirectionalLight(0xffffff, 0.2);
+                fillLight2.position.set(0, -10, 0);
+                this.scene.add(fillLight2);
+
+                // Hemisphere Light
+                this.hemisphereLight = new THREE.HemisphereLight(0xffffff, 0x444444, 0.5);
+                this.scene.add(this.hemisphereLight);
+
+                // Load HDRI for environment
+                const pmremGenerator = new THREE.PMREMGenerator(this.renderer);
+                pmremGenerator.compileEquirectangularShader();
+
+                new RGBELoader().load(
+                    'https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/equirectangular/venice_sunset_1k.hdr',
+                    (texture) => {
+                        const envMap = pmremGenerator.fromEquirectangular(texture).texture;
+                        this.scene.environment = envMap;
+                        texture.dispose();
+                        pmremGenerator.dispose();
+                    }
+                );
+            }
+
+            updateProgress(percent) {
+                const circle = document.querySelector('.circle-progress');
+                const percentText = document.querySelector('.progress-percent');
+                const circumference = 2 * Math.PI * 36;
+                const offset = circumference - (percent / 100) * circumference;
+
+                circle.style.strokeDashoffset = offset;
+                percentText.textContent = Math.round(percent) + '%';
+            }
+
+            async loadModel(url) {
+                return new Promise((resolve, reject) => {
+                    const loader = new GLTFLoader();
+
+                    // --- DRACO SUPPORT ---
+                    const dracoLoader = new DRACOLoader();
+                    dracoLoader.setDecoderPath('https://www.gstatic.com/draco/versioned/decoders/1.5.6/');
+                    loader.setDRACOLoader(dracoLoader);
+
+                    // --- KTX2 SUPPORT (Basis Universal) ---
+                    const ktx2Loader = new KTX2Loader()
+                        .setTranscoderPath('https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/libs/basis/')
+                        .detectSupport(this.renderer);
+                    loader.setKTX2Loader(ktx2Loader);
+
+                    // --- MESHOPT SUPPORT ---
+                    loader.setMeshoptDecoder(MeshoptDecoder);
+
+                    // VRM support
+                    loader.register((parser) => {
+                        return new VRMLoaderPlugin(parser);
+                    });
+
+                    loader.load(
+                        url,
+                        (gltf) => {
+                            let model;
+
+                            // Check if this is a VRM model
+                            if (gltf.userData.vrm) {
+                                model = gltf.userData.vrm.scene;
+                                this.vrm = gltf.userData.vrm;
+                                console.log('VRM model loaded:', this.vrm);
+                            } else {
+                                model = gltf.scene;
+                            }
+
+                            // --- ANIMATION SUPPORT ---
+                            if (gltf.animations && gltf.animations.length > 0) {
+                                console.log(`Found ${gltf.animations.length} animations`);
+                                this.mixer = new THREE.AnimationMixer(model);
+                                
+                                // Tüm animasyonları loop modunda oynat
+                                gltf.animations.forEach((clip) => {
+                                    const action = this.mixer.clipAction(clip);
+                                    action.play();
+                                });
+                            }
+
+                            // CRITICAL: DO NOT override material properties from GLB/VRM!
+                            model.traverse((child) => {
+                                if (child.isMesh) {
+                                    child.castShadow = true;
+                                    child.receiveShadow = true;
+
+                                    if (child.material) {
+                                        if (child.material.transmission !== undefined && child.material.transmission > 0) {
+                                            child.material.envMapIntensity = 0.3;
+                                        } else if (child.material.metalness !== undefined && child.material.metalness > 0.5) {
+                                            child.material.envMapIntensity = 1.0;
+                                        } else {
+                                            child.material.envMapIntensity = 0.8;
+                                        }
+                                        child.material.needsUpdate = true;
+                                    }
+                                }
+                            });
+
+                            this.scene.add(model);
+                            this.model = model;
+                            this.fitModelToScreen();
+                            this.loading.style.display = 'none';
+                            resolve(model);
+                        },
+                        (progress) => {
+                            if (progress.total > 0) {
+                                const percent = (progress.loaded / progress.total * 100);
+                                this.updateProgress(percent);
+                            }
+                        },
+                        (error) => {
+                            console.error('Error loading model:', error);
+                            document.querySelector('.loading-text').textContent = 'Error loading model';
+                            reject(error);
+                        }
+                    );
+                });
+            }
+
+            fitModelToScreen() {
+                if (!this.model) return;
+
+                const box = new THREE.Box3().setFromObject(this.model);
+                const size = box.getSize(new THREE.Vector3());
+                const center = box.getCenter(new THREE.Vector3());
+
+                const maxDim = Math.max(size.x, size.y, size.z);
+                const fov = this.camera.fov * (Math.PI / 180);
+                let cameraZ = Math.abs(maxDim / 2 / Math.tan(fov / 2));
+
+                cameraZ *= 2.5;
+
+                this.camera.position.set(center.x, center.y + cameraZ * 0.3, center.z + cameraZ);
+                this.camera.lookAt(center);
+
+                this.controls.target.copy(center);
+                this.controls.update();
+
+                this.camera.near = cameraZ / 100;
+                this.camera.far = cameraZ * 100;
+                this.camera.updateProjectionMatrix();
+            }
+
+            onWindowResize() {
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+
+                this.camera.aspect = width / height;
+                this.camera.updateProjectionMatrix();
+
+                this.renderer.setSize(width, height);
+
+                if (this.model) {
+                    this.fitModelToScreen();
+                }
+            }
+
+            onFullscreenChange() {
+                setTimeout(() => {
+                    this.onWindowResize();
+                }, 100);
+            }
+
+            animate() {
+                requestAnimationFrame(() => this.animate());
+
+                // Delta time hesapla
+                const deltaTime = this.clock.getDelta();
+
+                // Update VRM if exists
+                if (this.vrm) {
+                    this.vrm.update(deltaTime);
+                }
+
+                // Update Animations if exists
+                if (this.mixer) {
+                    this.mixer.update(deltaTime);
+                }
+
+                this.controls.update();
+                this.renderer.render(this.scene, this.camera);
+            }
+        }
+
+        // Initialize viewer
+        const viewer = new GLBViewer();
+
+        // Load model from URL (GLB or VRM)
+        window.loadGLBModel = function(url) {
+            if (viewer.model) {
+                viewer.scene.remove(viewer.model);
+                viewer.model = null;
+                viewer.vrm = null;
+                
+                // Eski mixer varsa durdur ve temizle
+                if (viewer.mixer) {
+                    viewer.mixer.stopAllAction();
+                    viewer.mixer = null;
+                }
+            }
+
+            viewer.loading.style.display = 'block';
+            viewer.updateProgress(0);
+            return viewer.loadModel(url);
+        };
+
+        // Auto-load from URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const modelUrl = urlParams.get('model');
+        if (modelUrl) {
+            window.loadGLBModel(decodeURIComponent(modelUrl));
+        }
+
+        // Listen for messages from parent
+        window.addEventListener('message', (event) => {
+            if (event.data && event.data.type === 'loadGLB' && event.data.url) {
+                window.loadGLBModel(event.data.url);
+            }
+        });
+    </script>
+</body>
+</html>
