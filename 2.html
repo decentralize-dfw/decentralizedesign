@@ -305,74 +305,76 @@
 
 /* ===== 2.html: iPad landscape layout ===== */
 @media (min-width:769px){
-/* Old desktop chrome: hide */
 .finder-window,#desktop-icons{display:none!important}
 
-/* Keep circular-nav VISIBLE (so its ::before background still shows)
-   but hide all its navigation content */
+/* Keep circular-nav visible (background shows) but hide content */
 #circular-navigation{pointer-events:none;z-index:1!important}
 #circular-sidebar,#circular-container,#circular-breadcrumb{display:none!important}
 #circular-back-button{opacity:0!important;pointer-events:none!important}
 
-/* Layout toggle -> top-left */
+/* Layout toggle top-left, bg selector top-right */
 #layout-toggle-container{
   position:fixed!important;top:10px!important;left:16px!important;
-  bottom:auto!important;z-index:20100!important;display:flex!important;
-  pointer-events:auto!important;
+  bottom:auto!important;z-index:20100!important;display:flex!important;pointer-events:auto!important;
 }
-/* BG selector -> top-right */
 #background-selector{
   position:fixed!important;top:10px!important;right:16px!important;
   bottom:auto!important;left:auto!important;transform:none!important;
-  z-index:20100!important;display:flex!important;
-  pointer-events:auto!important;
+  z-index:20100!important;display:flex!important;pointer-events:auto!important;
 }
 
-/* Mobile interface shown as iPad — transparent so circular-nav bg shows through */
+/* Mobile interface = iPad: transparent so bg shows through */
 #mobile-interface{
   display:flex!important;position:fixed!important;
   top:44px!important;left:0!important;
   width:100vw!important;height:calc(100vh - 44px)!important;
   z-index:9999!important;padding:0!important;
   box-sizing:border-box!important;overflow:hidden!important;
-  background:transparent!important;
+  background:transparent!important;flex-direction:column!important;
 }
 
-/* Show main area + dock (original desktop CSS hides these — must override) */
+/* Override original desktop hide rules */
 #mobile-status-bar{display:none!important}
 #mobile-main-area{
-  display:flex!important;flex-direction:column!important;
-  flex:1!important;padding:8px 28px 0!important;min-height:0!important;
+  display:block!important;position:relative!important;
+  flex:1!important;min-height:0!important;
+  padding:8px 28px 0!important;overflow:hidden!important;
 }
-#mobile-pages-container{flex:1!important;position:relative!important;overflow:hidden!important;min-height:0!important}
+
+/* pages container fills main area via absolute positioning — avoids height:100% chain issues */
+#mobile-pages-container{
+  position:absolute!important;
+  top:0!important;left:0!important;right:0!important;bottom:0!important;
+  overflow:hidden!important;
+}
+#mobile-pages-wrapper{
+  display:flex!important;
+  position:absolute!important;
+  top:0!important;left:0!important;right:0!important;bottom:0!important;
+  transition:transform 0.3s ease-out!important;
+}
+.mobile-page{
+  flex-shrink:0!important;width:100%!important;height:100%!important;
+  display:grid!important;
+  grid-template-columns:repeat(6,1fr)!important;
+  grid-template-rows:repeat(4,1fr)!important;
+  gap:1.5% 2%!important;padding:8px!important;
+  box-sizing:border-box!important;align-items:center!important;justify-items:center!important;
+}
+#mobile-page-dots{
+  position:absolute!important;bottom:6px!important;left:50%!important;
+  transform:translateX(-50%)!important;
+  display:flex!important;align-items:center!important;gap:6px!important;
+  height:16px!important;min-height:16px!important;padding:0!important;
+}
+
+/* iPad dock */
 #mobile-dock{
   display:flex!important;flex-shrink:0!important;
   align-items:center!important;justify-content:center!important;
   height:88px!important;min-height:88px!important;max-height:88px!important;
   padding:8px 0 14px!important;
 }
-
-/* iPad grid: 6 cols x 4 rows = 24 items/page */
-.mobile-page{
-  grid-template-columns:repeat(6,1fr)!important;
-  grid-template-rows:repeat(4,1fr)!important;
-  gap:2% 2.5%!important;padding:8px 0!important;
-}
-
-/* Larger icons */
-.mobile-app-icon-image{
-  --icon-size:min(11vw,calc((100dvh - 180px) / 5))!important;
-  width:calc(var(--icon-size)*0.85)!important;
-  height:calc(var(--icon-size)*0.85)!important;
-  border-radius:22%!important;
-}
-.mobile-app-icon-name{
-  font-size:clamp(9px,1.1vw,13px)!important;
-  width:var(--icon-size,11vw)!important;
-  margin-top:5px!important;
-}
-
-/* iPad dock */
 #mobile-dock-container{
   max-width:460px!important;width:auto!important;
   border-radius:32px!important;padding:10px 28px!important;gap:16px!important;
@@ -382,12 +384,26 @@
 }
 .mobile-dock-icon{flex:none!important;max-width:none!important}
 .mobile-dock-icon-image{
-  --dock-icon-size:min(8vw,62px)!important;
+  --dock-icon-size:min(7vw,56px)!important;
   width:calc(var(--dock-icon-size)*0.88)!important;
   height:calc(var(--dock-icon-size)*0.88)!important;
   border-radius:22%!important;
 }
 .mobile-dock-icon-name{display:none!important}
+
+/* Icon sizing — smaller for iPad aesthetics */
+.mobile-app-icon-image{
+  --icon-size:min(8vw,82px)!important;
+  width:calc(var(--icon-size)*0.88)!important;
+  height:calc(var(--icon-size)*0.88)!important;
+  border-radius:22%!important;
+}
+.mobile-app-icon-name{
+  font-size:clamp(8px,1vw,12px)!important;
+  width:var(--icon-size,8vw)!important;
+  margin-top:4px!important;white-space:nowrap!important;
+  overflow:hidden!important;text-overflow:ellipsis!important;
+}
 
 /* Viewers on top */
 #mobile-app-viewer{z-index:20000!important}
