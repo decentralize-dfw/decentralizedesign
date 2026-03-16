@@ -8113,7 +8113,7 @@ iconHTML = `<img src="${folder.iconUrl}" alt="${folder.name} icon" style="border
  .catch(() => { iframe.srcdoc = '<p style="color:red;">Failed to load</p>'; });
  }
  }
- if ((item.type === 'glb' || item.type === 'vrm') && typeof THREE !== 'undefined') {
+ if (item.type === 'glb' || item.type === 'vrm') {
  setTimeout(() => {
  const container = document.getElementById(`mobile-glb-container-${item.id}`);
  if (container) {
