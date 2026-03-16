@@ -303,75 +303,87 @@
 @media (prefers-color-scheme:light){:root{color-scheme:light dark}noscript div{background:#ffffff !important;color:#111111 !important}noscript a{color:#0066cc !important}noscript h1,noscript h2,noscript h3{color:#000000 !important}}
 @media (prefers-color-scheme:dark){:root{color-scheme:dark}noscript div{background:#0a0a0a !important;color:#e8e8e8 !important}noscript a{color:#66aaff !important}noscript h1,noscript h2,noscript h3{color:#ffffff !important}}
 
-/* ===== 2.html: iPad landscape + iPhone layout ===== */
+/* ===== 2.html: iPad landscape layout ===== */
 @media (min-width:769px){
+/* Hide old desktop chrome */
 .finder-window,#desktop-icons{display:none!important}
-#circular-sidebar{display:none!important}
-#window-container{content-visibility:visible!important}
-#circular-navigation{height:calc(100vh - 72px)!important}
-#background-selector{bottom:86px}
-#layout-toggle-container{bottom:86px}
-#circular-breadcrumb{bottom:86px;left:50%;transform:translateX(-50%);right:auto}
-#circular-back-button{top:24px;left:auto;right:28px}
-#ipad-info-panel{
-  display:flex;flex-direction:column;justify-content:flex-end;
-  position:fixed;bottom:72px;left:0;
-  width:clamp(260px,28vw,380px);
-  padding:0 32px 28px;
-  z-index:9000;pointer-events:none;
+
+/* Hide circular-nav visually but fixed children (bg-selector, layout-toggle) can override */
+#circular-navigation{visibility:hidden;pointer-events:none;z-index:0!important}
+
+/* Layout toggle → top-left */
+#layout-toggle-container{
+  visibility:visible!important;pointer-events:auto!important;
+  position:fixed!important;top:10px!important;left:16px!important;
+  bottom:auto!important;z-index:20100!important;display:flex!important;
 }
-#ipad-info-title{
-  font-size:clamp(2rem,4.5vw,3.8rem);font-weight:900;color:#fff;
-  text-shadow:0 2px 20px rgba(0,0,0,0.95),0 0 60px rgba(0,0,0,0.5);
-  line-height:.92;letter-spacing:-2px;margin-bottom:14px;
-  transition:opacity .3s ease,transform .3s ease;
+/* BG selector → top-right */
+#background-selector{
+  visibility:visible!important;pointer-events:auto!important;
+  position:fixed!important;top:10px!important;right:16px!important;
+  bottom:auto!important;left:auto!important;transform:none!important;
+  z-index:20100!important;display:flex!important;
 }
-#ipad-info-desc{
-  font-size:clamp(0.65rem,1vw,0.75rem);font-weight:400;
-  color:rgba(255,255,255,.72);line-height:1.7;
-  text-shadow:0 1px 6px rgba(0,0,0,.85);
-  max-height:90px;overflow:hidden;
-  -webkit-mask-image:linear-gradient(to bottom,#000 50%,transparent 100%);
-  mask-image:linear-gradient(to bottom,#000 50%,transparent 100%);
-  transition:opacity .3s ease;white-space:pre-line;
+#circular-breadcrumb{display:none!important}
+#circular-back-button{display:none!important}
+
+/* Show mobile-interface as iPad — starts below top controls */
+#mobile-interface{
+  display:flex!important;position:fixed!important;
+  top:44px!important;left:0!important;
+  width:100vw!important;height:calc(100vh - 44px)!important;
+  z-index:9999!important;padding:0!important;box-sizing:border-box!important;
 }
-#ipad-info-panel.fading #ipad-info-title,
-#ipad-info-panel.fading #ipad-info-desc{opacity:0;transform:translateY(8px)}
-#ipad-bottom-bar{
-  display:flex;position:fixed;bottom:0;left:0;right:0;height:72px;
-  background:rgba(8,8,8,.6);
-  backdrop-filter:blur(32px) saturate(180%);
-  -webkit-backdrop-filter:blur(32px) saturate(180%);
-  border-top:1px solid rgba(255,255,255,.06);
-  z-index:19999;align-items:center;justify-content:center;
-  gap:2px;padding:0 32px;
-  padding-bottom:env(safe-area-inset-bottom);
+/* Hide phone-style status bar */
+#mobile-status-bar{display:none!important}
+#mobile-main-area{padding:8px 28px 0!important}
+
+/* iPad grid: 6 cols x 4 rows = 24 items/page (matches JS MOBILE_ITEMS_PER_PAGE=24) */
+.mobile-page{
+  grid-template-columns:repeat(6,1fr)!important;
+  grid-template-rows:repeat(4,1fr)!important;
+  gap:2% 2.5%!important;padding:8px 0!important;
 }
-.ipad-tab{
-  display:flex;flex-direction:column;align-items:center;justify-content:center;
-  flex:1;max-width:130px;min-width:64px;
-  padding:6px 10px 5px;border-radius:14px;
-  cursor:pointer;transition:background .18s ease;gap:3px;
-  -webkit-tap-highlight-color:transparent;user-select:none;
+
+/* Larger icons for iPad */
+.mobile-app-icon-image{
+  --icon-size:min(11vw,calc((100dvh - 180px) / 5))!important;
+  width:calc(var(--icon-size)*0.85)!important;
+  height:calc(var(--icon-size)*0.85)!important;
+  border-radius:22%!important;
 }
-.ipad-tab:hover{background:rgba(255,255,255,.08)}
-.ipad-tab.active{background:rgba(255,255,255,.12)}
-.ipad-tab:active{background:rgba(255,255,255,.18)}
-.ipad-tab-icon{width:24px;height:24px;display:flex;align-items:center;justify-content:center}
-.ipad-tab-icon svg{width:22px;height:22px;color:rgba(255,255,255,.38);transition:color .2s ease,transform .15s ease}
-.ipad-tab.active .ipad-tab-icon svg{color:rgba(255,255,255,.95)}
-.ipad-tab:active .ipad-tab-icon svg{transform:scale(.88)}
-.ipad-tab-label{
-  font-size:9px;font-weight:600;letter-spacing:.4px;text-transform:uppercase;
-  color:rgba(255,255,255,.35);transition:color .2s ease;
+.mobile-app-icon-name{
+  font-size:clamp(9px,1.1vw,13px)!important;
+  width:var(--icon-size,11vw)!important;
+  margin-top:5px!important;
 }
-.ipad-tab.active .ipad-tab-label{color:rgba(255,255,255,.85)}
-.ipad-tab-dot{
-  width:4px;height:4px;border-radius:50%;
-  background:rgba(255,255,255,.8);
-  opacity:0;transition:opacity .2s ease;
+
+/* iPad dock */
+#mobile-dock{
+  height:88px!important;min-height:88px!important;max-height:88px!important;
+  padding:8px 0 14px!important;display:flex!important;
+  align-items:center!important;justify-content:center!important;
+  flex-shrink:0!important;
 }
-.ipad-tab.active .ipad-tab-dot{opacity:1}
+#mobile-dock-container{
+  max-width:460px!important;width:auto!important;
+  border-radius:32px!important;padding:10px 28px!important;gap:16px!important;
+  background:rgba(255,255,255,0.22)!important;
+  backdrop-filter:blur(32px)!important;-webkit-backdrop-filter:blur(32px)!important;
+  box-shadow:0 8px 32px rgba(0,0,0,0.25)!important;
+}
+.mobile-dock-icon{flex:none!important;max-width:none!important}
+.mobile-dock-icon-image{
+  --dock-icon-size:min(8vw,62px)!important;
+  width:calc(var(--dock-icon-size)*0.88)!important;
+  height:calc(var(--dock-icon-size)*0.88)!important;
+  border-radius:22%!important;
+}
+.mobile-dock-icon-name{display:none!important}
+
+/* Viewers stay on top */
+#mobile-app-viewer{z-index:20000!important}
+#mobile-folder-overlay{z-index:20001!important}
 }
 @media (max-width:768px){
 #ipad-bottom-bar,#ipad-info-panel{display:none!important}
@@ -8533,95 +8545,5 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
-</script>
-
-<div id="ipad-info-panel">
-  <div id="ipad-info-title">decentralize</div>
-  <div id="ipad-info-desc"></div>
-</div>
-<div id="ipad-bottom-bar">
-  <div class="ipad-tab active" data-section="root">
-    <div class="ipad-tab-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg></div>
-    <span class="ipad-tab-label">Home</span>
-    <div class="ipad-tab-dot"></div>
-  </div>
-  <div class="ipad-tab" data-section="decentralize">
-    <div class="ipad-tab-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
-    <span class="ipad-tab-label">Studio</span>
-    <div class="ipad-tab-dot"></div>
-  </div>
-  <div class="ipad-tab" data-section="Experience">
-    <div class="ipad-tab-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" stroke-width="2"/><polygon points="10,8 16,12 10,16" fill="currentColor" stroke="none"/></svg></div>
-    <span class="ipad-tab-label">Experience</span>
-    <div class="ipad-tab-dot"></div>
-  </div>
-  <div class="ipad-tab" data-section="Gallery">
-    <div class="ipad-tab-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" stroke-width="2" rx="1"/><rect x="14" y="3" width="7" height="7" stroke-width="2" rx="1"/><rect x="3" y="14" width="7" height="7" stroke-width="2" rx="1"/><rect x="14" y="14" width="7" height="7" stroke-width="2" rx="1"/></svg></div>
-    <span class="ipad-tab-label">Gallery</span>
-    <div class="ipad-tab-dot"></div>
-  </div>
-  <div class="ipad-tab" data-section="Item">
-    <div class="ipad-tab-icon"><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m0 10l8 4m6 0v-4m0 0L4 11m6 4l8-4m-8 4v4m0 0L4 17m6 4l8-4"/></svg></div>
-    <span class="ipad-tab-label">Item</span>
-    <div class="ipad-tab-dot"></div>
-  </div>
-</div>
-<script>
-(function(){
-  var infoPanel  = document.getElementById('ipad-info-panel');
-  var infoTitle  = document.getElementById('ipad-info-title');
-  var infoDesc   = document.getElementById('ipad-info-desc');
-  var bottomBar  = document.getElementById('ipad-bottom-bar');
-  if(!infoPanel||!bottomBar) return;
-  var sTitle = document.getElementById('circular-sidebar-title');
-  var sDesc  = document.getElementById('circular-sidebar-description');
-
-  function getRootSection(key){
-    if(!key||key==='root') return 'root';
-    var cur=key;
-    while(cur && typeof folderHierarchy!=='undefined' && folderHierarchy[cur] && folderHierarchy[cur].parent){
-      cur=folderHierarchy[cur].parent;
-    }
-    return cur||'root';
-  }
-  function updateActiveTab(folderKey){
-    var root=getRootSection(folderKey);
-    document.querySelectorAll('.ipad-tab').forEach(function(t){
-      t.classList.toggle('active', t.dataset.section===root);
-    });
-  }
-  function updateInfoPanel(title,desc){
-    infoPanel.classList.add('fading');
-    setTimeout(function(){
-      infoTitle.textContent = title||'';
-      infoDesc.textContent  = (desc||'').replace(/<br\s*\/?>/gi,'\n').replace(/<[^>]+>/g,'').trim();
-      infoPanel.classList.remove('fading');
-    },180);
-  }
-  if(sTitle){
-    new MutationObserver(function(){
-      updateInfoPanel(sTitle.textContent, sDesc ? sDesc.innerHTML : '');
-      if(typeof circularNav!=='undefined') updateActiveTab(circularNav.currentFolder);
-    }).observe(sTitle,{childList:true,subtree:true,characterData:true});
-  }
-  setTimeout(function(){
-    if(sTitle) updateInfoPanel(sTitle.textContent, sDesc ? sDesc.innerHTML : '');
-    if(typeof circularNav!=='undefined') updateActiveTab(circularNav.currentFolder);
-  },600);
-
-  document.querySelectorAll('.ipad-tab').forEach(function(tab){
-    tab.addEventListener('click',function(){
-      var sec=tab.dataset.section;
-      if(sec==='root'){
-        if(typeof navigateToCircularRoot==='function') navigateToCircularRoot();
-      } else {
-        if(typeof folderHierarchy!=='undefined' && folderHierarchy[sec] && typeof navigateToCircularFolder==='function'){
-          var inf=folderHierarchy[sec];
-          navigateToCircularFolder(sec, inf.name, inf.description||'');
-        }
-      }
-    });
-  });
-})();
 </script>
 </body></html>
