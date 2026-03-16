@@ -305,47 +305,61 @@
 
 /* ===== 2.html: iPad landscape layout ===== */
 @media (min-width:769px){
-/* Hide old desktop chrome */
+/* Old desktop chrome: hide */
 .finder-window,#desktop-icons{display:none!important}
 
-/* Hide circular-nav visually but fixed children (bg-selector, layout-toggle) can override */
-#circular-navigation{visibility:hidden;pointer-events:none;z-index:0!important}
+/* Keep circular-nav VISIBLE (so its ::before background still shows)
+   but hide all its navigation content */
+#circular-navigation{pointer-events:none;z-index:1!important}
+#circular-sidebar,#circular-container,#circular-breadcrumb{display:none!important}
+#circular-back-button{opacity:0!important;pointer-events:none!important}
 
-/* Layout toggle → top-left */
+/* Layout toggle -> top-left */
 #layout-toggle-container{
-  visibility:visible!important;pointer-events:auto!important;
   position:fixed!important;top:10px!important;left:16px!important;
   bottom:auto!important;z-index:20100!important;display:flex!important;
+  pointer-events:auto!important;
 }
-/* BG selector → top-right */
+/* BG selector -> top-right */
 #background-selector{
-  visibility:visible!important;pointer-events:auto!important;
   position:fixed!important;top:10px!important;right:16px!important;
   bottom:auto!important;left:auto!important;transform:none!important;
   z-index:20100!important;display:flex!important;
+  pointer-events:auto!important;
 }
-#circular-breadcrumb{display:none!important}
-#circular-back-button{display:none!important}
 
-/* Show mobile-interface as iPad — starts below top controls */
+/* Mobile interface shown as iPad — transparent so circular-nav bg shows through */
 #mobile-interface{
   display:flex!important;position:fixed!important;
   top:44px!important;left:0!important;
   width:100vw!important;height:calc(100vh - 44px)!important;
-  z-index:9999!important;padding:0!important;box-sizing:border-box!important;
+  z-index:9999!important;padding:0!important;
+  box-sizing:border-box!important;overflow:hidden!important;
+  background:transparent!important;
 }
-/* Hide phone-style status bar */
-#mobile-status-bar{display:none!important}
-#mobile-main-area{padding:8px 28px 0!important}
 
-/* iPad grid: 6 cols x 4 rows = 24 items/page (matches JS MOBILE_ITEMS_PER_PAGE=24) */
+/* Show main area + dock (original desktop CSS hides these — must override) */
+#mobile-status-bar{display:none!important}
+#mobile-main-area{
+  display:flex!important;flex-direction:column!important;
+  flex:1!important;padding:8px 28px 0!important;min-height:0!important;
+}
+#mobile-pages-container{flex:1!important;position:relative!important;overflow:hidden!important;min-height:0!important}
+#mobile-dock{
+  display:flex!important;flex-shrink:0!important;
+  align-items:center!important;justify-content:center!important;
+  height:88px!important;min-height:88px!important;max-height:88px!important;
+  padding:8px 0 14px!important;
+}
+
+/* iPad grid: 6 cols x 4 rows = 24 items/page */
 .mobile-page{
   grid-template-columns:repeat(6,1fr)!important;
   grid-template-rows:repeat(4,1fr)!important;
   gap:2% 2.5%!important;padding:8px 0!important;
 }
 
-/* Larger icons for iPad */
+/* Larger icons */
 .mobile-app-icon-image{
   --icon-size:min(11vw,calc((100dvh - 180px) / 5))!important;
   width:calc(var(--icon-size)*0.85)!important;
@@ -359,12 +373,6 @@
 }
 
 /* iPad dock */
-#mobile-dock{
-  height:88px!important;min-height:88px!important;max-height:88px!important;
-  padding:8px 0 14px!important;display:flex!important;
-  align-items:center!important;justify-content:center!important;
-  flex-shrink:0!important;
-}
 #mobile-dock-container{
   max-width:460px!important;width:auto!important;
   border-radius:32px!important;padding:10px 28px!important;gap:16px!important;
@@ -381,7 +389,7 @@
 }
 .mobile-dock-icon-name{display:none!important}
 
-/* Viewers stay on top */
+/* Viewers on top */
 #mobile-app-viewer{z-index:20000!important}
 #mobile-folder-overlay{z-index:20001!important}
 }
