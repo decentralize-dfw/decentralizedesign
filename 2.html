@@ -308,7 +308,8 @@
 .finder-window,#desktop-icons{display:none!important}
 
 /* Keep circular-nav visible (background shows) but hide content */
-#circular-navigation{pointer-events:none;z-index:1!important}
+/* z-index:0 so it renders BELOW mobile content (main-area z-index:2) */
+#circular-navigation{pointer-events:none;z-index:0!important}
 #circular-sidebar,#circular-container,#circular-breadcrumb{display:none!important}
 #circular-back-button{opacity:0!important;pointer-events:none!important}
 
@@ -339,6 +340,7 @@
   display:block!important;position:relative!important;
   flex:1!important;min-height:0!important;
   padding:8px 28px 0!important;overflow:hidden!important;
+  z-index:2!important; /* above circular-navigation (z-index:0) */
 }
 
 /* pages container fills main area via absolute positioning — avoids height:100% chain issues */
@@ -372,21 +374,22 @@
 #mobile-dock{
   display:flex!important;flex-shrink:0!important;
   align-items:center!important;justify-content:center!important;
-  height:88px!important;min-height:88px!important;max-height:88px!important;
-  padding:8px 0 14px!important;
+  height:100px!important;min-height:100px!important;max-height:100px!important;
+  padding:8px 0 16px!important;
+  position:relative!important;z-index:2!important; /* above circular-navigation */
 }
 #mobile-dock-container{
-  max-width:460px!important;width:auto!important;
-  border-radius:32px!important;padding:10px 28px!important;gap:16px!important;
+  max-width:560px!important;width:auto!important;
+  border-radius:36px!important;padding:12px 32px!important;gap:20px!important;
   background:rgba(255,255,255,0.22)!important;
   backdrop-filter:blur(32px)!important;-webkit-backdrop-filter:blur(32px)!important;
   box-shadow:0 8px 32px rgba(0,0,0,0.25)!important;
 }
 .mobile-dock-icon{flex:none!important;max-width:none!important}
 .mobile-dock-icon-image{
-  --dock-icon-size:min(7vw,56px)!important;
-  width:calc(var(--dock-icon-size)*0.88)!important;
-  height:calc(var(--dock-icon-size)*0.88)!important;
+  --dock-icon-size:min(6vw,68px)!important;
+  width:var(--dock-icon-size)!important;
+  height:var(--dock-icon-size)!important;
   border-radius:22%!important;
 }
 .mobile-dock-icon-name{display:none!important}
@@ -405,9 +408,9 @@
   overflow:hidden!important;text-overflow:ellipsis!important;
 }
 
-/* Viewers on top */
-#mobile-app-viewer{z-index:20000!important}
-#mobile-folder-overlay{z-index:20001!important}
+/* Viewers on top: folder first, app-viewer above folder */
+#mobile-folder-overlay{z-index:20000!important}
+#mobile-app-viewer{z-index:20001!important}
 }
 @media (max-width:768px){
 #ipad-bottom-bar,#ipad-info-panel{display:none!important}
